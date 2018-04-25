@@ -1,6 +1,6 @@
 class POICloseToCampus {
-  Enum Category { Clothes, Electronics, Food };
-  
+  public enum Category { Clothes, Electronics, Food }
+
   String name;
   String location;
   Category category;
