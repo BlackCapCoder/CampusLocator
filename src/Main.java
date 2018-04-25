@@ -6,6 +6,7 @@ class Main {
 
   public static void main (String[] args) throws Exception {
     Server s = new Server (8000);
+    s.AddPage("", new FilePage("../data/index.html"));
     s.AddPage("test", new FilePage("../data/test.html"));
     s.Start();
   }
