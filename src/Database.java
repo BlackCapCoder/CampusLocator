@@ -7,7 +7,7 @@ class Database {
 
   Database () throws Exception {
     Class.forName("org.sqlite.JDBC");
-    String url = "jdbc:sqlite:/home/blackcap/school/CampusLocator/data/database";
+    String url = "jdbc:sqlite:../data/database";
     con = DriverManager.getConnection(url);
   }
 
