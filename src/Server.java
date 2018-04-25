@@ -9,10 +9,12 @@ import com.sun.net.httpserver.HttpServer;
 
 class Server {
   HttpServer server;
+  Database   db;
 
   public Server (int port) throws Exception {
     server = HttpServer.create(new InetSocketAddress(port), 0);
     server.setExecutor(null);
+    db = new Database();
   }
 
   public void Start () {
