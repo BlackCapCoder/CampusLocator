@@ -9,6 +9,7 @@ class Main {
 
     s.AddPage("", new FilePage("../data/index.html"));
     s.AddPage("test", new FilePage("../data/test.html"));
+    s.AddPage("mob.css", new FilePage("../data/mob.css"));
     s.AddPage("mob", new MobileMain(s.getCampuses()));
 
     s.Start();

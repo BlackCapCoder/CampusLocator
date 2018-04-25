@@ -28,6 +28,10 @@ public class Tag {
     this.attrs.add(new Attribute("class", name));
     return this;
   }
+  public Tag Class (Collection<String> names) {
+    this.attrs.add(new Attribute("class", names));
+    return this;
+  }
 
   public String toString () {
     StringBuilder sb = new StringBuilder();

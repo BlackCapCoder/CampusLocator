@@ -22,6 +22,8 @@ class FilePage implements HttpHandler {
 
   @Override
   public void handle(HttpExchange t) throws IOException {
+    System.out.println(path);
+
     t.sendResponseHeaders(200, file.length());
     OutputStream os = t.getResponseBody();
 

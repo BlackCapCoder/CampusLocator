@@ -25,19 +25,28 @@ class MobileMain implements HttpHandler {
   public void handle(HttpExchange t) throws IOException {
     HtmlWriter p = new HtmlWriter (t.getResponseBody());
 
+    p.print("<!DOCTYPE html>");
+
+    p.print("<link rel='stylesheet' href='mob.css'/>");
+
+
     p.tag(new Tag("h1").child("Campuses:"));
 
     Tag lst = new Tag("div").Class("list");
 
     for (Campus c : campuses) {
-      lst.child ( new Tag("div").Class("list-item")
-                . child ( new Tag("span").child(c.getName()) )
+      lst.child ( new Tag ("div")
+                . Class ("list-item")
+                . child ( new Tag ("span")
+                        . Class ("title")
+                        . child ( c.getName() )
+                        )
                 );
     }
 
     p.tag(lst);
 
-    t.sendResponseHeaders(200, 1024);
+    t.sendResponseHeaders(200, p.getSize());
 
     p.close();
   }

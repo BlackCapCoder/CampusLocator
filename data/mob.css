@@ -1,0 +1,13 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item {
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.list-item:not(:last-child) {
+  margin-bottom: 10px;
+}

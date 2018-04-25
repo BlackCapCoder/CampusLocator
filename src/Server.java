@@ -30,6 +30,7 @@ class Server {
   public ArrayList<Campus> getCampuses () {
     ArrayList<Campus> cs = new ArrayList<Campus> ();
     cs.add(new Campus("Fjeringen", true, ""));
+    cs.add(new Campus("Test", false, ""));
     return cs;
   }
 
