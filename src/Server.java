@@ -6,6 +6,8 @@ import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
 
+import java.util.ArrayList;
+
 
 class Server {
   HttpServer server;
@@ -23,6 +25,12 @@ class Server {
 
   public void AddPage (String path, HttpHandler h) {
     server.createContext("/" + path, h);
+  }
+
+  public ArrayList<Campus> getCampuses () {
+    ArrayList<Campus> cs = new ArrayList<Campus> ();
+    cs.add(new Campus("Fjeringen", true, ""));
+    return cs;
   }
 
 }
