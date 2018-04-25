@@ -3,9 +3,11 @@ import java.sql.*; // sqlite
 
 
 class Main {
-  public static void main (String[] args) {
-    try {
-      Test.main(args);
-    } catch (Exception e) {}
+
+  public static void main (String[] args) throws Exception {
+    Server s = new Server (8000);
+    s.AddPage("test", new FilePage("test.html"));
+    s.Start();
   }
+
 }
