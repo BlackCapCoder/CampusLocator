@@ -9,4 +9,8 @@ public class HtmlWriter extends PrintWriter {
     super(os);
   }
 
+  public void tag (Tag t) {
+    this.println(t.toString());
+  }
+
 }

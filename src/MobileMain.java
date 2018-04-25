@@ -11,7 +11,7 @@ import java.nio.file.Files;
 
 import java.util.ArrayList;
 
-import Html.HtmlWriter;
+import Html.*;
 
 
 class MobileMain implements HttpHandler {
@@ -25,17 +25,17 @@ class MobileMain implements HttpHandler {
   public void handle(HttpExchange t) throws IOException {
     HtmlWriter p = new HtmlWriter (t.getResponseBody());
 
-    p.println("<h1>Campuses:</h1>");
+    p.tag(new Tag("h1").child("Campuses:"));
 
-    p.println("<div class='list'>");
+    Tag lst = new Tag("div").Class("list");
+
     for (Campus c : campuses) {
-      p.println("<div class='list-item'>");
-      p.println("<span>");
-      p.println(c.getName());
-      p.println("</span>");
-      p.println("</div>");
+      lst.child ( new Tag("div").Class("list-item")
+                . child ( new Tag("span").child(c.getName()) )
+                );
     }
-    p.println("</div>");
+
+    p.tag(lst);
 
     t.sendResponseHeaders(200, 1024);
 
