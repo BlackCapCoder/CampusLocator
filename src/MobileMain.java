@@ -1,5 +1,4 @@
 import java.io.IOException;
-import java.io.OutputStream;
 import java.net.InetSocketAddress;
 
 import com.sun.net.httpserver.HttpExchange;
@@ -10,8 +9,9 @@ import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Files;
 
-import java.io.PrintWriter;
 import java.util.ArrayList;
+
+import Html.HtmlWriter;
 
 
 class MobileMain implements HttpHandler {
@@ -23,7 +23,7 @@ class MobileMain implements HttpHandler {
 
   @Override
   public void handle(HttpExchange t) throws IOException {
-    PrintWriter p = new PrintWriter (t.getResponseBody());
+    HtmlWriter p = new HtmlWriter (t.getResponseBody());
 
     p.println("<h1>Campuses:</h1>");
 
