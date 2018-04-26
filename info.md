@@ -14,3 +14,4 @@ You can start an interactive sqlite session with `sqlite3 database`. You can the
 | Command | Description                 |
 |---------|-----------------------------|
 | .tables | List tables in the database |
+ hei
