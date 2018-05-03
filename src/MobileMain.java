@@ -1,4 +1,5 @@
 import java.io.IOException;
+import java.io.OutputStream;
 import java.net.InetSocketAddress;
 
 import com.sun.net.httpserver.HttpExchange;
@@ -10,20 +11,20 @@ import java.nio.file.Path;
 import java.nio.file.Files;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import Html.*;
 
 
-class MobileMain implements HttpHandler {
+class MobileMain extends HttpMonoid {
   ArrayList<Campus> campuses;
 
   public MobileMain (ArrayList<Campus> cs) {
     campuses = cs;
   }
 
-  @Override
-  public void handle(HttpExchange t) throws IOException {
-    HtmlWriter p = new HtmlWriter (t.getResponseBody());
+  public void write (OutputStream os) {
+    HtmlWriter p = new HtmlWriter (os);
 
     p.print("<!DOCTYPE html>");
 
@@ -45,8 +46,6 @@ class MobileMain implements HttpHandler {
     }
 
     p.tag(lst);
-
-    t.sendResponseHeaders(200, p.getSize());
 
     p.close();
   }

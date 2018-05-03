@@ -11,7 +11,7 @@ import java.nio.file.Path;
 import java.nio.file.Files;
 
 
-class FilePage implements HttpHandler {
+class FilePage extends HttpMonoid {
   Path path;
   File file;
 
@@ -20,15 +20,8 @@ class FilePage implements HttpHandler {
     this.path = file.toPath();
   }
 
-  @Override
-  public void handle(HttpExchange t) throws IOException {
-    System.out.println(path);
-
-    t.sendResponseHeaders(200, file.length());
-    OutputStream os = t.getResponseBody();
-
-    Files.copy(path, os);
-    os.flush();
-    os.close();
+  public void write (OutputStream os) {
+    try { Files.copy(path, os); } catch (Exception e) {}
   }
+
 }

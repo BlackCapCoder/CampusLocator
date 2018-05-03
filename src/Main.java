@@ -7,10 +7,10 @@ class Main {
   public static void main (String[] args) throws Exception {
     Server s = new Server (8000);
 
-    s.AddPage("", new FilePage("../data/index.html"));
-    s.AddPage("test", new FilePage("../data/test.html"));
+    s.AddPage("",        new FilePage("../data/index.html"));
+    s.AddPage("test",    new FilePage("../data/test.html"));
     s.AddPage("mob.css", new FilePage("../data/mob.css"));
-    s.AddPage("mob", new MobileMain(s.getCampuses()));
+    s.AddPage("mob",     new MobileMain(s.getCampuses()));
 
     s.Start();
   }
