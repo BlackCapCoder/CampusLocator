@@ -35,25 +35,24 @@
 
 **Innholdsfortegnelse**
 
-1        Innledning        3
+1. 1. [Innledning](#Innledning)
+   2. [Overskrift]()
+   3. [Overskrift]()
 
-1.1        overskrift 2        3
+2. [Idé og konsept](#Idé_og_konsept)
 
-1.1.1        overskrift 3        3
+3. [Utviklingsmetodikk](#Utviklingsmetodikk)
+4. [Prototype](#Prototype)
+5. [Målgruppen](#Målgruppen),
+   [Usability](#Usability),
+   [designprinsipper](#designprinsipper),
+   [universell](#universell),
+   [utforming](#utforming),
+   [etc](#etc)
 
-2        Idé og konsept        3
-
-3        Utviklingsmetodikk        3
-
-4        Prototype        3
-
-5        Målgruppen, Usability, designprinsipper, universell utforming etc.        3
-
-6        Bruk av Git        3
-
-7        Tekniske valg        3
-
-Referanser        3
+6. [Bruk av Git](#Bruk_av_Git)
+7. [Tekniske valg](#Tekniske_valg)
+8. [Referanser](#Referanser)
 
 &lt;Høyreklikk på innholdsfortegnelsefelt for oppdatering&gt;
 
@@ -65,10 +64,8 @@ Referanser        3
 
 Innledningsvis vil vi si at dette har vært et meget lærerikt prosjekt. Vi er en gruppe satt sammen av 7 forskjellige mennesker med forskjellige kvaliteter. I begynnelsen av prosjektet diskuterte vi dette og fant ut at å fordele oppgaver ikke vil bli noe problem, da alle har hvert sitt område de er innstilt på å bidra i. Vi fordelte fokuset på gruppen i 3; Design, brukervennlighet, teori. Designgruppa hadde ansvar for å planlegge og sørge for at nettsiden ser ut som vi vil. Gutta innen brukervennlighet har jobbet med at alt skal fungere optimalt og være enkelt i bruk. I den teoretiske delen har vi vært nøye på at vi noterer alle viktige punkter underveis i prosjektet. Når man fordeler oppgaver som dette hviler det mye ansvar på hvert team. I vårt tilfelle utløste dette en stor vilje individuelt, og det virket som alle fikk god motivasjon til å jobbe så godt vi kan. Det er også dette som har blitt essensen i vår gruppe. Alle har lyst til å få en god karakter og er både interesserte og arbeidsvillige. Det har gjort at prosjektet på ingen måte har føles overveldende, men heller morsomt og noe vi vet vi skal klare. Det store gjenstående spørsmålet er: «Hvordan kan vi gjøre dette best mulig?». Vi har tatt fatt i det spørsmålet og gleder oss til å vise dere hva vi får produsert i løpet av denne perioden.
 
-1.
-  1. 1.1overskrift 2
-    1. 1.1.1overskrift 3
-
+1. 1. [Overskrift](#overskrift)
+   1. [Overskrift](#overskrift)
 
 
 ## Idé og konsept
