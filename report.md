@@ -1,5 +1,5 @@
 <br>
-![](data/westerdals.png)
+![](https://github.com/BlackCapCoder/CampusLocator/blob/master/data/westerdals.png?raw=true)
 
 # **Webprosjekt – Våren 2018**
 
