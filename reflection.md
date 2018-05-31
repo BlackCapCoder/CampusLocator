@@ -37,3 +37,4 @@ Vi benyttet Kanban til å fordele oppgaver, og hadde mye idemyldring og kommunik
 Veldig bra. Vi har forskjellige personer med ulike egenskaper som gjorde at vi kunne hjelpe hverandre når vi satt fast, vi satt ofte flere sammen og jobbet med å finne ut hvordan ting skulle fungere, hvor ulike elementer skulle plasseres for å få best mulig brukervennlighet.
 Det har vært litt sykdom og forsovelser gjennom de 2 ukene, men vi føler det ikke hindret veldig mye arbeid.
 
+Rolig musikk hjalp oss å jobbe.
