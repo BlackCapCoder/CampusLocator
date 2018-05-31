@@ -38,6 +38,8 @@ Veldig bra. Vi har forskjellige personer med ulike egenskaper som gjorde at vi k
 Det har vært litt sykdom og forsovelser gjennom de 2 ukene, men vi føler det ikke hindret veldig mye arbeid.
 
 
-Vi jobbet på grupperom nede kjelleren, uten vinduer slik at vi ikke skulle bli distrahert av forstyrrelser og det gode været som vi har hatt i de siste to ukene. Da ble vi ikke forstyrret av andre folk. Rolig musikk hjalp oss å jobbe. Alt i alt vil vi si at vårt gode vennskap til hverandre ikke ble ødelagt av arbeidsmoralen til hver enkelt. Vi hadde det gøy og lærte masse om et CMS som vi kan dra nytte av uansett karriere valg. I dette øyeblikket hvor vi sitter sammen og har øyenene klistret til skjermen imens jeg skriver disse siste ordene, så kan vi på hånda på hjertet si at Wordpress har testet tålmodigheten, nattesøvnen og hvordan vi kommuniserer til hverandre som en grupppe. Det har i retrospekt gjort oss litt smartere enn det vi var.  
+Vi jobbet på grupperom nede kjelleren, uten vinduer slik at vi ikke skulle bli distrahert av forstyrrelser og det gode været som vi har hatt i de siste to ukene. Da ble vi ikke forstyrret av andre folk. Rolig musikk hjalp oss å jobbe. Alt i alt vil vi si at vårt gode vennskap til hverandre ikke ble ødelagt av arbeidsmoralen til hver enkelt. Vi hadde det gøy og lærte masse om et CMS som vi kan dra nytte av uansett karriere valg.
+
+I dette øyeblikket hvor vi sitter sammen og har øynene klistret til skjermen imens jeg skriver disse siste ordene, så kan vi på hånda på hjertet si at Wordpress har testet tålmodigheten, nattesøvnen og hvordan vi kommuniserer til hverandre som en gruppe. Det har i retrospekt gjort oss litt smartere enn det vi var.
 
 Gruppe 12 out
