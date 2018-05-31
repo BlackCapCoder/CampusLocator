@@ -41,3 +41,6 @@ Veldig bra. Vi har hjulpet hverandre når vi har hatt problemer. Det har vært l
 - Prosessen
 - Hva har fungert (bra/dårlig)
 - Gruppesamarbeid
+
+
+en fin setning
