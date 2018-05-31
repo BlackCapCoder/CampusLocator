@@ -6,7 +6,10 @@ Det første vi gjorde var å brainstorme og å tegne skisser. Når vi hadde fåt
 
 Alternativene våre var Wordpress eller Java. Til å begynne med så ville flertallet ha Java, men vi byttet eventuelt til Wordpress da det ble klart at alle ikke hadde kompetanse til å jobbe med løsningen.
 
-Wordpress er en veldig enkel og grei løsning når vi vil lage en nettside. Det at vi kan velge fra themes som allerede er laget gjorde det lett for oss å vite hvor og hvordan vi ville legge inn det vi trengte på nettsiden. Det var dessverre noen problemer når vi skulle skrive kode direkte i wordpress som gjorde at vi brukte litt tid på fikse dette, men vi fant det ut til slutt. 
+Wordpress er en veldig enkel og grei løsning når vi vil lage en nettside. Det at vi kan velge fra themes som allerede er laget gjorde det lett for oss å vite hvor og hvordan vi ville legge inn det vi trengte på nettsiden.
+Det var dessverre noen problemer når vi skulle skrive kode direkte i Wordpress som gjorde at vi brukte litt tid på fikse dette, men vi fant det ut til slutt.
+
+Vi hadde også til problemer med å få opp Wordpress til å begynne med.
 
 Vi benyttet kanban til å fordele oppgaver, og hadde mye idemyldring og kommunikasjon gjevt igjennom prosjektuken.
 
