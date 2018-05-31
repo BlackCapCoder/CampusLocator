@@ -12,7 +12,7 @@ Det å skrive HTML, CSS og JavaScript rett inn i Wordpress var derimot ikke opti
 
 Vi hadde også til problemer med å få opp Wordpress til å begynne med. Vi ble forvirret av en "Lag Wordpress knapp" som ikke fungerte i CPanel. Vi endte opp med å sette det opp manuelt.
 
-Vi benyttet kanban til å fordele oppgaver, og hadde mye idemyldring og kommunikasjon gjevt igjennom prosjektuken. Det gjorde at alle på gruppa hadde oversikt over hva som ble gjort og hva som trengte å bli gjort.
+Vi benyttet Kanban til å fordele oppgaver, og hadde mye idemyldring og kommunikasjon gjevt igjennom prosjektuken. Det gjorde at alle på gruppa hadde oversikt over hva som ble gjort og hva som trengte å bli gjort.
 
 
 ### Hva har fungert
