@@ -42,4 +42,4 @@ Vi jobbet på grupperom nede kjelleren, uten vinduer slik at vi ikke skulle bli 
 
 I dette øyeblikket hvor vi sitter sammen og har øynene klistret til skjermen imens jeg skriver disse siste ordene, så kan vi på hånda på hjertet si at Wordpress har testet tålmodigheten, nattesøvnen og hvordan vi kommuniserer til hverandre som en gruppe. Det har i retrospekt gjort oss litt smartere enn det vi var.
 
-Gruppe 12 out
+~~Gruppe 12 out~~
